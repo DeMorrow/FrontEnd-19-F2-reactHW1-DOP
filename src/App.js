@@ -9,13 +9,13 @@ function App() {
       <h1>{num}{num == 15 ? " MAX": num == 0 ? ' MIN': '' }</h1>
       <button onClick={() =>{
         setNum(num + 5)
-        if (num > 14) {
+        if (num > 11) {
           setNum(15)
         }
       }}>+5</button>
       <button onClick={() =>{
         setNum(num - 5)
-        if (num < 1) {
+        if (num < 5) {
           setNum(0)
         }
       }}>-5</button>
